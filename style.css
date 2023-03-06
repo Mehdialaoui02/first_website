@@ -63,28 +63,22 @@
 
 .randominfo {
     color: black;
-    border: solid;
-
 }
 
 .randominfo h3 {
     font-weight: bold;
     text-align: center;
     margin-bottom: 50px;
-
 }
 
 .randominfo .cont {
     display: flex;
     justify-content: center;
-
 }
 
 .randominfo .cont div{
     display: flex;
     flex-direction: column;
-    
-    
     
 }
 
@@ -92,13 +86,69 @@
     border: solid #3882F6;
     border-radius: 8px;
     height : 150px;
-    width: 150px;
-    
+    width: 150px;   
 }
 .randominfo .cont div span{
     flex:auto;
     padding: 20px;
-    width : 150px
+    width : 150px   
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 400;
+    font-style: italic;  
+    text-align: right;
+}
+
+.quote p{
+    padding-top: 75px;
+    text-align: center;
+}
+
+.signup {
+    display: flex;
+    justify-content:center;
+}
+
+.signup .contain {
+    background-color: #3882F6;
+    margin-top: 80px;
+    border-radius: 8px;
+    display: flex;
+    padding: 43px 75px 43px 75px;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.signup .contain .text {
+    flex: 4 1 auto;   
+    color: white;
+    margin-right: 50px;
     
-    
+}
+
+.signup .contain .text .call {
+    font-weight: 900;
+    font-size: 35px;
+}
+
+.signup .contain .text .sign {
+    font-size: 17px;
+}
+.signup button{
+    flex: auto;
+    height: 30px;
+    width: 80px;
+    align-self:center;
+    background-color: #3882F6;
+    border-radius: 4px;
+    color: white;
+    border-color: #F9FAF8;
+    font-size: 17px;
+
+
 }
