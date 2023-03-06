@@ -1,10 +1,10 @@
 * {
-    font-family: roboto;
-    color:white;
+    font-family: roboto; 
 }
 
 .banner {
     background-color: #1F2937;
+    color:white;
 }
 
 .container {
@@ -59,4 +59,46 @@
 
 .info .placeholder span {
     font-size: larger;
+}
+
+.randominfo {
+    color: black;
+    border: solid;
+
+}
+
+.randominfo h3 {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.randominfo .cont {
+    display: flex;
+    justify-content: center;
+
+}
+
+.randominfo .cont div{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.randominfo .cont .image_holder {
+    border: solid #3882F6;
+    border-radius: 8px;
+    height : 150px;
+    width: 150px;
+    
+}
+.randominfo .cont div span{
+    flex:auto;
+    padding: 20px;
+    width : 150px
+    
+    
 }
