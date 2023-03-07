@@ -2,6 +2,10 @@
     font-family: roboto; 
 }
 
+body {
+    margin: 0px;;
+}
+
 .banner {
     background-color: #1F2937;
     color:white;
@@ -42,8 +46,14 @@
     font-size:xx-large;
 }
 .info button {
+    height: 30px;
+    width: 80px;
+    align-self:center;
     background-color: #3882F6;
     border-radius: 4px;
+    color: white;
+    border-color: #F9FAF8;
+    font-size: 17px;
 
 }
 
@@ -149,6 +159,14 @@
     color: white;
     border-color: #F9FAF8;
     font-size: 17px;
+}
 
-
+.credits {
+    margin: 80px 0px 0px 0px;
+    background-color: #101650;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+    border: 0;
 }
